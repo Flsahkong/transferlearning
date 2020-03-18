@@ -16,19 +16,19 @@ author = {Wang, Jindong and others}
 }  
 ```
 
-- [迁移学习 Transfer Learning](#迁移学习-transfer-learning)
-	- [0.Latest Publications (最新论文)](#0latest-publications-最新论文)
-	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-简介与教程)
-	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-研究领域与相关论文)
-	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-理论与综述)
-	- [4.Code (代码)](#4code-代码)
-	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-著名学者)
-	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-硕博士论文)
-	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-数据集与评测结果)
-	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-迁移学习比赛)
-	- [Applications (迁移学习应用)](#applications-迁移学习应用)
-	- [Other Resources (其他资源)](#other-resources-其他资源)
-	- [Contributing (欢迎参与贡献)](#contributing-欢迎参与贡献)
+- [迁移学习 Transfer Learning](#%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0-transfer-learning)
+	- [0.Latest Publications (最新论文)](#0latest-publications-%e6%9c%80%e6%96%b0%e8%ae%ba%e6%96%87)
+	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-%e7%ae%80%e4%bb%8b%e4%b8%8e%e6%95%99%e7%a8%8b)
+	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-%e7%a0%94%e7%a9%b6%e9%a2%86%e5%9f%9f%e4%b8%8e%e7%9b%b8%e5%85%b3%e8%ae%ba%e6%96%87)
+	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-%e7%90%86%e8%ae%ba%e4%b8%8e%e7%bb%bc%e8%bf%b0)
+	- [4.Code (代码)](#4code-%e4%bb%a3%e7%a0%81)
+	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-%e8%91%97%e5%90%8d%e5%ad%a6%e8%80%85)
+	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-%e7%a1%95%e5%8d%9a%e5%a3%ab%e8%ae%ba%e6%96%87)
+	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-%e6%95%b0%e6%8d%ae%e9%9b%86%e4%b8%8e%e8%af%84%e6%b5%8b%e7%bb%93%e6%9e%9c)
+	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e6%af%94%e8%b5%9b)
+	- [Applications (迁移学习应用)](#applications-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e5%ba%94%e7%94%a8)
+	- [Other Resources (其他资源)](#other-resources-%e5%85%b6%e4%bb%96%e8%b5%84%e6%ba%90)
+	- [Contributing (欢迎参与贡献)](#contributing-%e6%ac%a2%e8%bf%8e%e5%8f%82%e4%b8%8e%e8%b4%a1%e7%8c%ae)
 
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
@@ -43,77 +43,15 @@ author = {Wang, Jindong and others}
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Latest publications**
+- **Weekly latest papers**
 
-	- 20191204 AAAI-20 [Online Knowledge Distillation with Diverse Peers](https://arxiv.org/abs/1912.00350)
-        - Online Knowledge Distillation with Diverse Peers
-
-	- 20191125 AAAI-20 [Unsupervised Domain Adaptation via Structured Prediction Based Selective Pseudo-Labeling](https://arxiv.org/abs/1911.07982)
-    	- DA with selective pseudo label
-    	- 结构化和选择性的伪标签用于DA
-    - 20191202 AAAI-20 [Towards Oracle Knowledge Distillation with Neural Architecture Search](https://arxiv.org/abs/1911.13019)
-       - Using NAS for knowledge Distillation
-       - 用NAS帮助知识蒸馏
-
-    - 20191202 AAAI-20 [Stable Learning via Sample Reweighting](https://arxiv.org/abs/1911.12580)
-       - Theoretical sample reweigting
-       - 理论和方法，用于sample reweight
-
-	- 20191202 PR-19 [Correlation-aware Adversarial Domain Adaptation and Generalization](https://arxiv.org/abs/1911.12983)
-       - CORAL and adversarial for adaptation and generalization
-       - 基于CORAL和对抗网络的DA和DG
-
-    - 20191201 AAAI-20 [Zero-Resource Cross-Lingual Named Entity Recognition](https://arxiv.org/abs/1911.09812)
-       - Zero-resource cross-lingual NER
-       - 零资源的跨语言NER
+	- 20200210 WACVW-20 [Impact of ImageNet Model Selection on Domain Adaptation](https://arxiv.org/abs/2002.02559)
+    	- A good experiment paper to indicate the power of representations
+    	- 一篇很好的实验paper，揭示了深度特征+传统方法的有效性
+  	- 20200210 AAAI-20 [Bi-Directional Generation for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.04869)
+    	- Bidirectional GANs for domain adaptation
+    	- 双向的GAN用来做DA
     
-    - 20191201 AAAI-20 [Transfer Learning for Anomaly Detection through Localized and Unsupervised Instance Selection](https://github.com/Vincent-Vercruyssen/LocIT/blob/master/paper/LOCIT-AAAI2020-full-manuscript.pdf)
-    	- Instance selection by comparing local source and target distributions
-
-- **Preprints on arXiv** (Not peer-reviewed)
-
-	- 20191204 arXiv [DeepMimic: Mentor-Student Unlabeled Data Based Training](https://arxiv.org/abs/1912.00079)
-       - Teacher-student training with unlabeled data
-       - 在大量无标注数据中训练老师-学生网络
-
-    - 20191204 arXiv [MetAdapt: Meta-Learned Task-Adaptive Architecture for Few-Shot Classification](https://arxiv.org/abs/1912.00412)
-       - Task adaptive structure for few-shot learning
-       - 目标自适应的结构用于小样本学习
-
-    - 20191204 arXiv [Data Augmentation for Deep Transfer Learning](https://arxiv.org/abs/1912.00772)
-       - Data Augmentation for Deep Transfer Learning
-       - 深度学习中进行一些数据增强的实验
-
-    - 20191204 arXiv [Transferability versus Discriminability: Joint Probability Distribution Adaptation (JPDA)](https://arxiv.org/abs/1912.00320)
-       - Joint adaptation with different weights
-       - 不同权重的联合概率适配
-
-	- 20191125 arXiv [Attention Privileged Reinforcement Learning For Domain Transfer](https://arxiv.org/abs/1911.08363)
-    	- Attention privileged reinforcement learning for domain transfer
-    - 20191201 BMVC-19 [Domain Adaptation for Object Detection via Style Consistency](https://arxiv.org/abs/1911.10033)
-       - Use style consistency for domain adaptation
-       - 通过结构一致性来进行domain adaptation
-
-- **Preprints on arXiv** (Not peer-reviewed)
-
-    - 20191202 arXiv [Domain-invariant Stereo Matching Networks](https://arxiv.org/abs/1911.13287)
-       - Domain-invariant stereo matching networks
-       - 领域不变的匹配网络
-
-    - 20191202 arXiv [Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911)
-       - Diverse supervision helps to learn generalizable representations
-
-    - 20191202 arXiv [AdaShare: Learning What To Share For Efficient Deep Multi-Task Learning](https://arxiv.org/abs/1911.12423)
-       - Learning what to share for multi-task learning
-       - 对多任务学习如何share
-
-    - 20191202 arXiv [Domain-Aware Dynamic Networks](https://arxiv.org/abs/1911.13237)
-       - Edge devices adaptative computing
-       - 边缘计算上的自适应计算
-
-    - 20191201 arXiv [A Transfer Learning Method for Goal Recognition Exploiting Cross-Domain Spatial Features](https://arxiv.org/abs/1911.10134)
-       - A transfer learning method for goal recognition 
-       - 用迁移学习分析语言中的目标
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -129,21 +67,22 @@ author = {Wang, Jindong and others}
 	- 清华大学龙明盛老师的深度迁移学习报告 Transfer learning report by Mingsheng Long @ THU：[PPT(Samsung)](http://ise.thss.tsinghua.edu.cn/~mlong/doc/transfer-learning-talk.pdf)、[PPT(Google China)](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-transfer-learning-talk.pdf)
 
 - 入门教程
-	- [**《迁移学习简明手册》Transfer Learning Tutorial**](https://zhuanlan.zhihu.com/p/35352154) [开发维护地址](https://github.com/jindongwang/transferlearning-tutorial)
+	- [**《迁移学习简明手册》Transfer Learning Tutorial**](https://zhuanlan.zhihu.com/p/35352154) [在线阅读](https://tutorial.transferlearning.xyz/) [PDF](http://jd92.wang/assets/files/transfer_learning_tutorial_wjd.pdf)
 
 - 视频教程
 	- [台湾大学李宏毅的视频讲解(中文视频)](https://www.youtube.com/watch?v=qD6iD4TFsdQ)
 	- [迁移学习中的领域自适应方法(中文)](http://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247484940&idx=2&sn=35e64e07fde9a96afbb65dbf40a945eb&chksm=ec1febf5db6862e38d5e02ff3278c61b376932a46c5628c7d9cb1769c572bfd31819c13dd468&mpshare=1&scene=1&srcid=1219JpTNZFiNDCHsTUrUxwqy#rd)
+	- [2020斯坦福大学多任务与元学习教程CS330 by Chelsea finn](https://www.bilibili.com/video/av91772677?p=12)
 
 - [迁移学习领域的著名学者、代表工作及实验室介绍 Transfer Learning Scholars and Labs](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)
 
 - 什么是[负迁移(negative transfer)](https://www.zhihu.com/question/66492194/answer/242870418)？
 
 - 动手教程、代码、数据 Hands-on Codes
-	- [基于深度学习和迁移学习的识花实践 Using Transfer Learning for Flower Recognition](https://cosx.org/2017/10/transfer-learning/)
-	- [基于Pytorch的图像分类 Using Transfer Learning for Image Classification](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
-	- [使用Pytorch进行finetune Using Pytorch for Fine-tune](https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial)
-	- [基于AlexNet和ResNet的finetune Fine-tune based on Alexnet and Resnet](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
+    - [Pytorch官方迁移学习示意代码](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
+	- [Pytorch的finetune Fine-tune based on Alexnet and Resnet](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
+	- [用Pytorch进行深度特征提取](https://github.com/jindongwang/transferlearning/tree/master/code/feature_extractor)
+	- [基于Tensorflow的几个深度adaptation实现](https://github.com/asahi417/DeepDomainAdaptation)
 	- [更多 More...](https://github.com/jindongwang/transferlearning/tree/master/code)
 
 - - -
