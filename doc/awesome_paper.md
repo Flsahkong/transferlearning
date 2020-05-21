@@ -4,7 +4,6 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 这里收录了迁移学习各个研究领域的最新文章。
 
-
 - [1. Awesome Transfer Learning Papers](#1-awesome-transfer-learning-papers)
 	- [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-%e6%99%ae%e9%80%9a%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
 		- [1.1.1. Theory (理论)](#111-theory-%e7%90%86%e8%ae%ba)
@@ -28,8 +27,6 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- [1.13. Lifelong Learning (终身迁移学习)](#113-lifelong-learning-%e7%bb%88%e8%ba%ab%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
 	- [1.14. Negative Transfer (负迁移)](#114-negative-transfer-%e8%b4%9f%e8%bf%81%e7%a7%bb)
 	- [1.15. Transfer Learning Applications (应用)](#115-transfer-learning-applications-%e5%ba%94%e7%94%a8)
-
-- - -
 
 ## 1.1. General Transfer Learning (普通迁移学习)
 
@@ -64,6 +61,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### 1.1.2. Others (其他)
+
+- 20200412 ICML-19 [Towards understanding knowledge distillation](http://proceedings.mlr.press/v97/phuong19a.html)
+  	- Some theoretical and empirical understanding to knowledge distllation
+  	- 对知识蒸馏的一些理论和实验的分析
 
 - 20200210 WACVW-20 [Impact of ImageNet Model Selection on Domain Adaptation](https://arxiv.org/abs/2002.02559)
   	- A good experiment paper to indicate the power of representations
@@ -246,6 +247,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.1. Traditional Methods (传统迁移方法)
 
+- 20200324 [Domain Adaptation by Class Centroid Matching and Local Manifold Self-Learning](https://arxiv.org/abs/2003.09391)
+  	- Domain adaptation by class centroid matching and local manifold self-learning
+  	- 集合了聚类、中心匹配，及自学习的DA
+
 - 20191204 arXiv [Transferability versus Discriminability: Joint Probability Distribution Adaptation (JPDA)](https://arxiv.org/abs/1912.00320)
      - Joint adaptation with different weights
      - 不同权重的联合概率适配
@@ -367,6 +372,22 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20200420 arXiv [One-vs-Rest Network-based Deep Probability Model for Open Set Recognition](https://arxiv.org/abs/2004.08067)
+  	- One-vs-rest deep model for open set recognition
+  	- 用于开放集的识别的深度网络
+
+- 20200414 ICLR-20 [Gradient as features for deep representation learning](https://openreview.net/pdf?id=BkeoaeHKDS)
+  	- Gradients as features for deep representation learning on pretrained models
+  	- 在预训练模型基础上，将梯度作为额外的feature，提高学习表现
+
+- 20200414 ICLR-20 [Domain adaptive multi-branch networks](https://openreview.net/forum?id=rJxycxHKDS)
+  	- A domain adaptation framework using a multi-branch cascade structure
+  	- 一个用了多层级联、多分支结构的DA框架
+
+- 20200405 CVPR-20 [Towards Discriminability and Diversity: Batch Nuclear-norm Maximization under Label Insufficient Situations](https://arxiv.org/abs/2003.12237)
+  	- A simple regularization-based adaptation method
+  	- 一个非常简单的基于能量最小化的adaptation方法
 
 - 20200210 AAAI-20 [Bi-Directional Generation for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.04869)
   	- Bidirectional GANs for domain adaptation
@@ -597,6 +618,10 @@ Including domain adaptation and partial domain adaptation.
 
 ## 1.4. Multi-source Transfer Learning (多源迁移学习)
 
+- 20200427 [TriGAN: Image-to-Image Translation for Multi-Source Domain Adaptation](https://arxiv.org/abs/2004.08769)
+  	- A cycle-gan style multi-source DA
+  	- 类似于cyclegan的多源领域适应
+
 - 20190902 AAAI-19 [Aligning Domain-Specific Distribution and Classifier for Cross-Domain Classification from Multiple Sources](https://www.aaai.org/ojs/index.php/AAAI/article/download/4551/4429)
   	- Multi-source domain adaptation using both features and classifier adaptation
   	- 利用特征和分类器同时适配进行多源迁移
@@ -688,6 +713,22 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.7. Zero-shot / Few-shot Learning
+
+- 20200408 ICLR-20 [A Baseline for Few-Shot Image Classification](https://openreview.net/forum?id=rylXBkrYDS)
+      - A simple finetune+entropy minimization approach with strong baseline
+      - 一个微调+最小化熵的小样本学习方法，结果很强
+
+- 20200405 ICCV-19 [Variational few-shot learning](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Variational_Few-Shot_Learning_ICCV_2019_paper.html)
+	- Variational few-shot learning
+	- 变分小样本学习
+
+- 20200405 ICLR-20 [A baseline for few-shot image classification](https://openreview.net/forum?id=rylXBkrYDS&noteId=rylXBkrYDS)
+	- A simple but powerful baseline for few-shot image classification
+	- 一个简单但是很有效的few-shot baseline
+
+- 20200324 IEEE TNNLS [Few-Shot Learning with Geometric Constraints](https://arxiv.org/abs/2003.09151)
+  	- Few-shot learning with geometric constraints
+  	- 用了一些几何约束进行小样本学习
 
 - 20190813 arXiv [Domain-Specific Embedding Network for Zero-Shot Recognition](https://arxiv.org/abs/1908.04174)
   	- Domain-specific embedding network for zero-shot learning

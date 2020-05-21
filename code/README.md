@@ -40,6 +40,10 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 	- OpenCV built-in function: `cv.CalcEMD2`
 	- Google's implementation: [Tensorflow](https://github.com/google/wasserstein-dist)
 
+## Useful tools 常用工具
+
+- Feature visualization using t-SNE (用t-SNE进行特征可视化)：[Python](https://github.com/jindongwang/transferlearning/tree/master/code/utils/feature_vis.py)
+
 ## Traditional transfer learning methods  非深度迁移
 
 - **SVM** (baseline)
@@ -208,6 +212,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 
 - **DAAN** (Dynamic Adversarial Adaptation Network, ICDM 2019) [80]
     - [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DAAN)
+
+- **DAEL** (Domain Adaptive Ensemble Learning, ArXiv 2020) [81]
+    - [Pytorch](https://github.com/KaiyangZhou/Dassl.pytorch)
 
 ## Applications
 
@@ -384,3 +391,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [79] Ghifary M, Balduzzi D, Kleijn W B, et al. Scatter component analysis: A unified framework for domain adaptation and domain generalization[J]. IEEE transactions on pattern analysis and machine intelligence, 2016, 39(7): 1414-1430.
 
 [80] Chaohui Yu, Jindong Wang, Yiqiang Chen, Meihu Huang. Transfer learnign with dynamic adversarial adaptation network. ICDM 2019.
+
+[81] Kaiyang Zhou, Yongxin Yang, Yu Qiao, Tao Xiang. Domain Adaptive Ensemble Learning. ArXiv preprint, 2020.
