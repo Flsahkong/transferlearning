@@ -16,21 +16,35 @@ author = {Wang, Jindong and others}
 }  
 ```
 
-- [迁移学习 Transfer Learning](#迁移学习-transfer-learning)
-	- [0.Latest Publications (最新论文)](#0latest-publications-最新论文)
-	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-简介与教程)
-	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-研究领域与相关论文)
-	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-理论与综述)
-	- [4.Code (代码)](#4code-代码)
-	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-著名学者)
-	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-硕博士论文)
-	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-数据集与评测结果)
-	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-迁移学习比赛)
-	- [Applications (迁移学习应用)](#applications-迁移学习应用)
-	- [Other Resources (其他资源)](#other-resources-其他资源)
-	- [Contributing (欢迎参与贡献)](#contributing-欢迎参与贡献)
-		- [Copyright notice](#copyright-notice)
-
+<table>
+    <tr>
+        <td>Contents</td>
+    </tr>
+    <tr>
+        <td><a href="#0latest-publications-最新论文">0.Latest Publications (最新论文)</a></td>
+        <td><a href="#1introduction-and-tutorials-简介与教程">1.Introduction and Tutorials (简介与教程)</a></td>
+    </tr>
+    <tr>
+        <td><a href="#2transfer-learning-areas-and-papers-研究领域与相关论文">2.Transfer Learning Areas and Papers (研究领域与相关论文)</a></td>
+        <td><a href="#3theory-and-survey-理论与综述">3.Theory and Survey (理论与综述)</a></td>
+    </tr>
+    <tr>
+        <td><a href="#4code-代码">4.Code (代码)</a></td>
+        <td><a href="#5transfer-learning-scholars-著名学者">5.Transfer Learning Scholars (著名学者)</a></td>
+    </tr>
+    <tr>
+        <td><a href="#6transfer-learning-thesis-硕博士论文">6.Transfer Learning Thesis (硕博士论文)</a></td>
+        <td><a href="#7datasets-and-benchmarks-数据集与评测结果">7.Datasets and Benchmarks (数据集与评测结果)</a></td>
+    </tr>
+    <tr>
+        <td><a href="#8transfer-learning-challenges-迁移学习比赛">8.Transfer Learning Challenges (迁移学习比赛)</a></td>
+        <td><a href="#applications-迁移学习应用">Applications (迁移学习应用)</a></td>
+    </tr>
+    <tr>
+        <td><a href="#other-resources-其他资源">Other Resources (其他资源)</a></td>
+        <td><a href="#contributing-欢迎参与贡献">Contributing (欢迎参与贡献)</a></td>
+    </tr>
+</table>
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
@@ -45,11 +59,14 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Weekly latest papers**
-
-	- 20200512 [Automatic Cross-Domain Transfer Learning for Linear Regression](https://arxiv.org/abs/2005.04088)
-    - 20200512 TIP [Importance Filtered Cross-Domain Adaptation](https://arxiv.org/abs/1912.12209)
-    - 20200512 ACL-20 [SentiBERT: A Transferable Transformer-Based Architecture for Compositional Sentiment Semantics](https://arxiv.org/abs/2005.04114)
-    - 20200512 [Source-Relaxed Domain Adaptation for Image Segmentation](https://arxiv.org/abs/2005.03697)
+  - 20200915 [Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
+    - 负迁移的综述
+  - 20200914 ECML-PKDD-20 [Towards Interpretable Multi-Task Learning Using Bilevel Programming](https://arxiv.org/abs/2009.05483)
+    - 用bilevel programming解释多任务学习
+  - 20200914 [A First Step Towards Distribution Invariant Regression Metrics](https://arxiv.org/abs/2009.05176)
+    - 分布无关的回归评价
+  - 20200914 [Transfer Learning of Graph Neural Networks with Ego-graph Information Maximization](https://arxiv.org/abs/2009.05204)
+    - 迁移学习用于GNN
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -127,7 +144,8 @@ Here are some articles on transfer learning theory and survey.
 - The most influential survey on transfer learning （最权威和经典的综述）: [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/).
 
 - Latest survey - 较新的综述：
-
+  - 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
+	- 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
     - 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
 	- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
 	- 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
@@ -154,11 +172,19 @@ Here are some articles on transfer learning theory and survey.
   - NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
   - COLT-09 [Domain adaptation: Learning bounds and algorithms](https://arxiv.org/abs/0902.3430)
 
-- Latest theory papers - 近期值得注意的理论分析文章：
+- Latest theory papers
+  - ICML-20 [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf)
+  	- The first work on causal transfer learning
+  	- 日本理论组大佬Sugiyama的工作，causal transfer learning
+
+  - CVPR-19 [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
+  	- Characterizing and avoid negative transfer
+  	- 形式化并提出如何避免负迁移
+  - ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
+    - Theory for universal machine translation
+    - 对统一机器翻译模型进行了理论论证
   - ICML-19 [Bridging Theory and Algorithm for Domain Adaptation](http://proceedings.mlr.press/v97/zhang19i.html)
   - 最近几年在ICML、NIPS、COLT、ALT上出现了一些理论分析的文章，以domain adaptation为关键字可以搜索到。
-
-- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究。
 
 - MMD (Maximum mean discrepancy):
   - MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) 以及 [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
